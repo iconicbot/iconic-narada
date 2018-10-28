@@ -1,0 +1,7 @@
+LOG_LEVEL=debug
+
+PORT=1337
+URL=https://yourdomain.com
+
+#Facebook
+FB_VERIFY_TOKEN=your_verify_token

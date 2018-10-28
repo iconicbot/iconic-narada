@@ -1,0 +1,8 @@
+{
+  "PAGE_ID": "your_page_id",
+  "OAUTH": {
+    "token": "your_access_token",
+    "token_secret": "your_access_token_secret"
+  },
+  "TWITTER_DESIGNATED_TWEET_ID":"your_tweet_id"
+}
