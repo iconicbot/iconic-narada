@@ -175,7 +175,7 @@ Send each reply in sequence.
 
 Contributions are generally appreciated. But we are exclusively looking for contributers to help us extend our support to Slack, Telegram, Instagram, WhatsApp, Skype, Youtube, Viber, Amazon Alexa, Line, Kik & make it a all-in-one open source webhooks boilerplate. 
 
-See the [Contributors' guide](https://github.com/iconicbot/iconic-narada/CONTRIBUTING.md) for more information.
+See the [Contributors' guide](https://github.com/iconicbot/iconic-narada/blob/master/CONTRIBUTING.md) for more information.
 
 ## Authors
 
