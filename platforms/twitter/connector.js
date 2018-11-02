@@ -104,7 +104,7 @@ class Twitter {
    */
   async uploadMedia(fileName, mediaCategory, shared = false) {
     logger.debug('Media upload started.');
-    const filePath = `./../media/${fileName}`;
+    const filePath = `./media/${fileName}`;
     const stats = statSync(filePath);
     let requestOptions = {};
     requestOptions = {
