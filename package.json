@@ -5,7 +5,7 @@
   "main": "start.js",
   "scripts": {
     "start": "node start.js",
-    "lint": "eslint . --ext .json --ext .md",
+    "lint": "eslint *.js",
     "pretest": "npm run lint",
     "test": "echo \"No tests\""
   },
