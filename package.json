@@ -5,8 +5,9 @@
   "main": "start.js",
   "scripts": {
     "start": "node start.js",
-    "pretest": "eslint lib spec *.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "eslint . --ext .json --ext .md",
+    "pretest": "npm run lint",
+    "test": "echo \"No tests\""
   },
   "repository": {
     "type": "git",
