@@ -32,7 +32,7 @@ To install Iconic Narada from source, first clone the repository, change directo
 
 In app root directory, rename `.sample-env` to `.env`. You can set app wide environment constants here and access them in your code with `dotenv` module and `process.env`.
 
-In each example bot directory, rename `.sample-config.js` to `.config.js`. You can set bot specific constants here and access them by importing this file into your bot code. You may also retrieve this information from database, if you choose to.
+In each example bot directory, you will find `config.json`. You can set bot specific constants here and access them by importing this file into your bot code. You may also instead retrieve this information from database for additional security.
 
 ### Enable/Disable a Platform
 

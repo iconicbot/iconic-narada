@@ -3,7 +3,6 @@
 .env
 .vscode
 **/node_modules
-**/config.json
 *.log
 .ebextensions
 scripts

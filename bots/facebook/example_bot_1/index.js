@@ -65,7 +65,7 @@ class Bot {
     const userProfile = await this.getUserProfile(event.senderId);
 
     const commentId = event.payload.comment_id;
-    if (event.senderId.toString() != botConfig.PAGE_ID) {
+    if (event.senderId.toString() !== botConfig.PAGE_ID) {
       // send private reply
       const reply = new FacebookElements.PrivateReply(`Hello ${userProfile.name}!`);
       await this.fbConnector.sendPrivateReply(commentId, reply)
