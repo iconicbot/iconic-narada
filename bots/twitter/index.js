@@ -4,7 +4,7 @@ import exampleBot1 from './example_bot_1';
 const logger = Logger(process.env)(module);
 
 const Bots = {
-  '898027383889862657': exampleBot1
+  '898027383889862657': exampleBot1,
 };
 
 class Bot {
