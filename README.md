@@ -26,7 +26,10 @@
 
 ## Installation
 
-To install Iconic Narada from source, first clone the repository, change directory to `src` folder and then run: `npm install`.
+Choose one of the following options:
+
+* Install with npm: `npm install iconic-narada`
+* To install Iconic Narada from source, first clone the repository and then run: `npm install`.
 
 ### Edit config
 
