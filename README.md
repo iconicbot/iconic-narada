@@ -31,6 +31,7 @@ Choose one of the following options:
 
 * Install with npm: `npm install iconic-narada`
 * To install Iconic Narada from source, first clone the repository and then run: `npm install`.
+* Follow the instruction to get the accessToken for YoutubeApi https://help.aolonnetwork.com/hc/en-us/articles/218079623-How-to-Create-Your-YouTube-API-Credentials
 
 ### Edit config
 
