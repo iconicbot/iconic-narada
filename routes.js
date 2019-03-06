@@ -12,10 +12,8 @@ app.use('/facebook', facebookRouter);
 // Create a route for twitter - https://your.domain/webhook/twitter
 app.use('/twitter', twitterRouter);
 
-
 // Create a route for twitter - https://your.domain/webhook/youtube
 app.use('/youtube', youtubeRouter);
-
 
 // Create a route for healthcheck - https://your.domain/webhook/
 app.use('/', (req, res) => res.status(200).send('OK'));
