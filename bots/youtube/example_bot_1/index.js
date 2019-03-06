@@ -60,6 +60,8 @@ class Bot {
   async processDeleteComment(event) {
     this.ytConnector.commentDelete(event.commentId).catch(err => logger.error(err));
   }
+
+ 
 }
 
 export default Bot;

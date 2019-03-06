@@ -133,7 +133,7 @@ You can also send an action with/without/before/after a Reply element.
 
 You can get user profile with getUserProfile method.
 
-    const facebookConnector = new FacebookConnectorACCESS_TOKEN);
+    const facebookConnector = new FacebookConnector(ACCESS_TOKEN);
     
     const userProfile = await facebookConnector.getUserProfile(recipientId)
         .catch(err => logger.debug(err));

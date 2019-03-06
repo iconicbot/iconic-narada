@@ -9,6 +9,7 @@
 * Facebook Messenger
 * Twitter
 * Twitter Direct
+* Youtube
 
 **Why Iconic-Narada?:**
 * Developer friendly
@@ -124,7 +125,7 @@ You can also send an action with/without/before/after a Reply element.
 
 You can get user profile with getUserProfile method.
 
-    const facebookConnector = new FacebookConnectorACCESS_TOKEN);
+    const facebookConnector = new FacebookConnector(ACCESS_TOKEN);
     
     const userProfile = await facebookConnector.getUserProfile(recipientId)
         .catch(err => logger.debug(err));
@@ -173,6 +174,43 @@ Send each reply in sequence.
         await twitterConnector.sendMessage(reply)
           .catch(err => logger.error(err));
     }
+
+
+### Youtube Connector
+
+#### Importing  connector
+
+    import YoutubeConnector from '../../../platforms/youtube/connector';
+
+#### Fetch list of comments
+
+You can fetch the list of comments for a specific video using the commentsList method.
+
+    const youtubeConnector = new YoutubeConnector(ACCESS_TOKEN);
+
+    youtubeConnector.commentsList(videoId).then((data) => {
+      //Process the data
+    });
+
+#### Add a new comment
+
+You can add a new comment for a video using the commentInsert method.
+
+    youtubeConnector.commentInsert(videoId, comment).catch(err => logger.error(err));
+
+### Add a reply to a comment
+
+You can add a reply to an existing comment using the commentReply method.
+
+    youtubeConnector.commentReply(commentId, comment).catch(err => logger.error(err));
+
+### Delete a comment
+
+You can remove a comment using the commentDelete method.
+
+     youtubeConnector.commentDelete(commentId).catch(err => logger.error(err));
+
+
 
 ## Contributing
 
