@@ -2,9 +2,11 @@ import { google } from 'googleapis';
 
 const service = google.youtube('v3');
 
+require('dotenv').config();
+
 class YoutubeConnector {
   constructor(clientSecret) {
-    this.auth = new google.auth.OAuth2(clientSecret.installed.client_id, clientSecret.installed.client_secret, clientSecret.installed.redirect_uris[0]);
+    this.auth = new google.auth.OAuth2(process.env.GOOGLE_CLIENT_ID, process.env.GOOGLE_CLIENT_SECRET, process.env.GOOGLE_REDIRECT_URI);
     this.auth.credentials = clientSecret.token;
   }
 
