@@ -1,0 +1,18 @@
+{
+    "installed": {
+        "client_id": "your_client_id",
+        "project_id": "your_project_id",
+        "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+        "token_uri": "https://oauth2.googleapis.com/token",
+        "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+        "client_secret": "client_secret",
+        "redirect_uris": []
+    },
+    "token": {
+        "access_token": "your_access_token",
+        "refresh_token": "your_refresh_token",
+        "scope": "https://www.googleapis.com/auth/youtube.force-ssl",
+        "token_type": "",
+        "expiry_date": ""
+    }
+}
